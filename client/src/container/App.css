@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  /* background-color: #fef5dc; */
+  background-color: #FFF8E1; 
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 5vmin;
+  margin-top: 50px;
+  padding-right: 10px;
+}
+
+.App-header {
+  background-color: #009688;
+  height: 150px;
+  /* display: flex; */
+  padding-left: 100px;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-variant:small-caps;
+  font-weight: 400;
+  text-align: left;
+  line-height: 150px;
+  color: #fef5dc;
+}
+
+.App-title {
+  font-size: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.App-subtitle {
+  font-size: 40px;
+  text-align: left;
+  line-height: 80px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-avatar {
+  height: 5vmin;
+  border-radius:50%;
+}
+
+.Speech-bubble-kid {
+  position: relative; background: #FFECB3; border-radius: 30px 5px 30px 30px; font-size: 125%; text-align: left; }
+
+.Speech-bubble-toy {
+  position: relative; background: #B2DFDB; border-radius: 5px 30px 30px 30px; font-size: 125%; text-align: left; }
+
+.Black-box {
+  background-color: #009688;
+  color: #fef5dc;
+  /* margin-top: "-150px"; */
+}
+
+.Chat-bar {
+  background-color: #00766c;
+  color: #fef5dc;
+}
+
+.Emotion-head {
+  text-align: left;
+  color: #3d445c;
+  font-size: 25px;
+
+}
+
+.Green-font {
+  color: rgb(197, 230, 197)
+}
+
+.Happy-font {
+  color: rgb(233, 185, 131)
+}
+
+.Sad-font {
+  color: rgb(200, 243, 243)
+}
+
+.Angry-font {
+  color: rgb(253, 183, 183)
+}
+
+.Annoyed-font {
+  color: rgb(218, 197, 230)
+}
+
+.Transparent {
+  opacity: 0;
+}
+
+.Dashboard-text-emotion {
+  line-height: 1.8;
+  text-align: left;
+  /* padding-left: 30px; */
+  margin-top: 7px;
+  color: #3d445c;
+  font-weight: 500;
+}
+
+.Dashboard-text-other {
+  line-height: 1.25;
+  text-align: right;
+  /* padding-left: 30px; */
+  margin-top: 5px;
+  color: #3d445c;
+  font-weight: 500;
+}
+
+.System-info {
+  line-height: 1.8;
+  background: #009688; 
+  color: #fef5dc;
+  border-radius: 30px; 
+  font-size: 20px; 
+  text-align: center; }
+
+.Status-info {
+  line-height: 1.8;
+  text-align: left;
+  padding-left: 20px;
+  color: #3d445c;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.Audio-box {
+  padding-top:20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
